@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,8 +15,27 @@
 
 <body>
     <div id="background">
-        <div class="navbar"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#">SoundCloud</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
 
+                </ul>
+            </div>
+        </nav>
         <div class="scroll">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -45,6 +65,50 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="row no-gutters">
+                <div class="col-md-6  bg-light">
+                    <div class="textcontainer">
+                        <div class="mainbox">
+                            <h2>What's On soundCloud ?? </h2>
+                            <h4>Music</h4>
+                            <p>So here at soundCloud we help you find music that makes you feel alive and awesome</p>
+
+                            <div class="textcont">
+                                <h4>Video</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, libero consequatur
+                                    magnam excepturi maxime
+                                </p>
+                                <h4>Artists</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, libero consequatur
+                                    magnam excepturi maxime
+                                </p>
+                            </div>
+                            <div class="heading">
+                                <p>Start Listening Now<i class="ri-arrow-right-fill"></i> </p>
+                            </div>
+                            <div class="btncont">
+                                <div class="btn1">Free</div>
+                                <div class="btn2">Premium</div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="imagecontainer">
+                        <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+                            alt="">
+
+
+                    </div>
+                </div>
+
             </div>
 
         </div>
