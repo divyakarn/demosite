@@ -1,151 +1,155 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    font-family: "Montserrat";
+   width: 100%;
+   height: 100%;
+   font-family: "Montserrat";
 }
 
 body {
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 #background {
-    width: 100%;
-    height: 100%;
-    background-color: black;
+   width: 100%;
+   height: 100%;
+   background-color: black;
 }
 
-
-
 .scroll {
-    width: 100%;
-    height: 500px;
-    /* background-color: red; */
-
+   width: 100%;
+   height: 500px;
+   /* background-color: red; */
 }
 
 .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
+   justify-content: flex-end;
+   margin-right: 40px;
 }
 
 /* .carousel-inner {
     height: 550px;
 } */
 .carousel img {
-    max-height: 600px;
-    margin: 0 auto;
-    object-fit: cover;
+   max-height: 600px;
+   margin: 0 auto;
+   object-fit: cover;
+}
+.navbar-brand {
+   margin-left: 40px;
 }
 
 .box {
-    width: 100%;
-    height: 600px;
-    background-color: red;
-    margin-top: 90px;
+   width: 100%;
+   height: 600px;
+   background-color: red;
+   margin-top: 90px;
 }
 
 .no-gutter.row,
 .no-gutter.container,
 .no-gutter.container-fluid {
-    margin-left: 0;
-    margin-right: 0;
+   margin-left: 0;
+   margin-right: 0;
 }
 
 .textcontainer {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    padding: 100px;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   padding: 100px;
 }
 
 .imagecontainer {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    text-align: center;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   text-align: center;
 }
 
 .mainbox {
-    width: 500px;
-    height: 400px;
-    margin: 0 Auto;
-    /* background-color: #e9e9e9; */
-    padding: 20px 20px;
-    text-transform: capitalize;
+   width: 500px;
+   height: 400px;
+   margin: 0 Auto;
+   /* background-color: #e9e9e9; */
+   padding: 20px 20px;
+   text-transform: capitalize;
 }
 
-.mainbox>h2 {
-    font-size: 30px;
+.mainbox > h2 {
+   font-size: 30px;
 }
 
-.mainbox>h4 {
-    font-weight: 500;
-    font-size: 18px;
+.mainbox > h4 {
+   font-weight: 500;
+   font-size: 18px;
 }
 
-.mainbox>p {
-    font-size: 17px;
+.mainbox > p {
+   font-size: 17px;
 }
 
 .textcont {
-    width: 100%;
-    height: 200px;
-    font-weight: 300;
-    /* background-color: rebeccapurple; */
+   width: 100%;
+   height: 200px;
+   font-weight: 300;
+   /* background-color: rebeccapurple; */
 }
 
-.textcont>h4 {
-    font-size: 18px;
+.textcont > h4 {
+   font-size: 18px;
 }
 
-.textcont>p {
-    font-size: 16px;
-    font-weight: 400;
-
+.textcont > p {
+   font-size: 16px;
+   font-weight: 400;
 }
 
 .btncont {
-    width: 50%;
-    height: 40px;
-    /* background-color: #e9e9e9; */
-    display: flex;
-    justify-content: space-between;
+   width: 50%;
+   height: 40px;
+   /* background-color: #e9e9e9; */
+   display: flex;
+   justify-content: space-between;
 }
 
 .btn1 {
-    width: 100px;
-    height: 40px;
-    background-color: #f34308;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+   /* width: 100px; */
+   height: 40px;
+   background-color: #ea5455;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   cursor: pointer;
+   padding: 11px 22px;
 }
 
 .btn2 {
-    width: 100px;
-    height: 40px;
-    background-color: #f34308;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+   /* width: 100px; */
+   height: 40px;
+   background-color: #ea5455;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 11px 22px;
+   color: white;
+   cursor: pointer;
 }
 
 .heading {
-    text-align: center;
-    position: relative;
-    width: 40%;
+   text-align: center;
+   position: relative;
+   width: 40%;
 }
 
-.heading>p>i {
-    position: absolute;
+.heading > p > i {
+   position: absolute;
 }
